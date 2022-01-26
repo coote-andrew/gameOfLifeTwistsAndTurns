@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Game of life twists and turns controller</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div id="gameboard">
+            <div id="centerConsole">
+                <div id="minusButton" class="redButton">-</div>
+                <div id="screen">
+                    <div id="screenText"></div>
+                    <div id='inputRow' class="inactiveText">
+                        <div id='screenInputStart'>input: </div>
+                        <div id="screenInput"></div>
+                    </div>
+                    
+                </div>
+                <div id="plusButton" class="redButton">+</div>
+            </div>
+            <div id="topConsole">
+                <div id="enterButton" class="blueButton">ENTER</div>
+                <div id="spinButton" class="blueButton">SPIN</div>
+                <div id="undoButton" class="blueButton">UNDO</div>
+            </div>
+            <div id="bottomConsole">
+                <div id="dollarButton" class="blueButton">$</div>
+                <div id="lifePointButton" class="blueButton">LIFE POINTS</div>
+            </div>
+        </div>
+        <div id="gameplayInformation">
+            <div id="generalInformation"></div>
+            <div id="cards">
+                <div id="player1" class="card">
+                    <div class="icon"></div> 
+                    <div class="cardNumber"></div> 
+                    <div class="dollars"></div> 
+                    <div class="lifePoints"></div>
+                    <div class="statusRow">
+                        <div class="salary"></div>
+                        <div class="vehicle"></div>
+                        <div class="education"></div>
+                        <div class="house"></div>
+                        <div class="family"></div>
+                    </div> 
+                </div>
+                <div id="player2" class="card">
+                    <div class="icon"></div> 
+                    <div class="cardNumber"></div> 
+                    <div class="dollars"></div> 
+                    <div class="lifePoints"></div>
+                    <div class="statusRow">
+                        <div class="salary"></div>
+                        <div class="vehicle"></div>
+                        <div class="education"></div>
+                        <div class="house"></div>
+                        <div class="family"></div>
+                    </div> 
+                </div>
+                
+                <div id="player3" class="card">
+                    <div class="icon"></div> 
+                    <div class="cardNumber"></div> 
+                    <div class="dollars"></div> 
+                    <div class="lifePoints"></div>
+                    <div class="statusRow">
+                        <div class="salary"></div>
+                        <div class="vehicle"></div>
+                        <div class="education"></div>
+                        <div class="house"></div>
+                        <div class="family"></div>
+                    </div> 
+                </div>
+                <div id="player4" class="card">
+                    <div class="icon"></div> 
+                    <div class="cardNumber"></div> 
+                    <div class="dollars"></div> 
+                    <div class="lifePoints"></div>
+                    <div class="statusRow">
+                        <div class="salary"></div>
+                        <div class="vehicle"></div>
+                        <div class="education"></div>
+                        <div class="house"></div>
+                        <div class="family"></div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        
+        <script src="js/main.js" async defer></script>
+    </body>
+</html>
